@@ -25,7 +25,7 @@ class TelemetryRecord {
 
         void setTempC(double c_value);
 
-        string getMetric(const string& metricName) const;
+        string getMetric(const string& dataName) const;
 
 };
 #endif
