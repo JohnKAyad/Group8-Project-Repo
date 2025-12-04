@@ -1,6 +1,7 @@
 #include <iomanip>
 #include <string>
 #include "Hub.h"
+#include "Sensor.h"
 #include "DataExport.h"
 #include "TelemetryRecord.h"
 using namespace std;
@@ -58,5 +59,4 @@ void Hub::receive(TelemetryRecord& record) {
     cout << "Hub processed record from " << record.getMetric("deviceID");
     cout << ", Temp C: " << fixed << setprecision(2) << record.getMetric("tempC") << endl;
 }
-
 
