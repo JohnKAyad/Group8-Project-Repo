@@ -1,4 +1,4 @@
-# Group Project
+# Group 8 Project
 
 Objectives:
 - demonstrate OOP principles
